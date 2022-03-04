@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID_Principles._3.LSP.GoodExamples.Interface
+namespace SOLID_Principles._4.ISP.GoodExamples.Interface
 {
     public interface IBike
     {

@@ -17,19 +17,6 @@ namespace SOLID_Principles
         {
 
 
-            Triangle triangle = new Triangle();
-            triangle.Edge1 = 40;
-            triangle.Edge2 = 50;
-            triangle.Edge3 = 75.80;
-
-            BadShape badShape = new BadShape();
-
-           double total = badShape.Perimeter_Calculation(triangle);
-
-            Console.WriteLine($"{total}");
-            Console.ReadKey();
-
-
 
 
 

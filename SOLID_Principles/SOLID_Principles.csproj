@@ -56,16 +56,28 @@
     <Compile Include="2.OCP\GoodExample\Repository\CircleRepository.cs" />
     <Compile Include="2.OCP\GoodExample\Repository\RectangleRepository.cs" />
     <Compile Include="2.OCP\GoodExample\Repository\TriangleRepository.cs" />
-    <Compile Include="3.LSP\BadExamples\Abstract\BaseRepository.cs" />
-    <Compile Include="3.LSP\Model\Bike.cs" />
-    <Compile Include="3.LSP\Model\Car.cs" />
-    <Compile Include="3.LSP\BadExamples\Repository\BikeRepository.cs" />
-    <Compile Include="3.LSP\BadExamples\Repository\CarRepository.cs" />
-    <Compile Include="3.LSP\GoodExamples\Abstract\BaseRepository.cs" />
-    <Compile Include="3.LSP\GoodExamples\Interface\IBike.cs" />
-    <Compile Include="3.LSP\GoodExamples\Interface\ICar.cs" />
-    <Compile Include="3.LSP\GoodExamples\Repository\BikeRepository.cs" />
-    <Compile Include="3.LSP\GoodExamples\Repository\CarRepository.cs" />
+    <Compile Include="3.LSP\BadExample\BadBaseEntity.cs" />
+    <Compile Include="3.LSP\BadExample\BadSendingData.cs" />
+    <Compile Include="3.LSP\BadExample\Employee.cs" />
+    <Compile Include="3.LSP\BadExample\Product.cs" />
+    <Compile Include="3.LSP\GoodExample\Abstract\BaseEntity.cs" />
+    <Compile Include="3.LSP\GoodExample\Abstract\BaseRepository.cs" />
+    <Compile Include="3.LSP\GoodExample\Inteface\IEmployee.cs" />
+    <Compile Include="3.LSP\GoodExample\Inteface\IProduct.cs" />
+    <Compile Include="3.LSP\GoodExample\Model\Employee.cs" />
+    <Compile Include="3.LSP\GoodExample\Model\Product.cs" />
+    <Compile Include="3.LSP\GoodExample\Repository\EmployeeRepository.cs" />
+    <Compile Include="3.LSP\GoodExample\Repository\ProductRepository.cs" />
+    <Compile Include="4.ISP\BadExamples\Interface\IBaseRepository.cs" />
+    <Compile Include="4.ISP\Model\Bike.cs" />
+    <Compile Include="4.ISP\Model\Car.cs" />
+    <Compile Include="4.ISP\BadExamples\Repository\BikeRepository.cs" />
+    <Compile Include="4.ISP\BadExamples\Repository\CarRepository.cs" />
+    <Compile Include="4.ISP\GoodExamples\Interface\IBaseRepository.cs" />
+    <Compile Include="4.ISP\GoodExamples\Interface\IBike.cs" />
+    <Compile Include="4.ISP\GoodExamples\Interface\ICar.cs" />
+    <Compile Include="4.ISP\GoodExamples\Repository\BikeRepository.cs" />
+    <Compile Include="4.ISP\GoodExamples\Repository\CarRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -73,7 +85,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="4.ISP\" />
     <Folder Include="5.DIP\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,27 +1,28 @@
-﻿using SOLID_Principles._3.LSP.GoodExamples.Abstract;
-using SOLID_Principles._3.LSP.GoodExamples.Interface;
+﻿
+
+using SOLID_Principles._4.ISP.GoodExamples.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID_Principles._3.LSP.GoodExamples.Repository
+namespace SOLID_Principles._4.ISP.GoodExamples.Repository
 {
-    public class CarRepository : BaseRepository, ICar
+    public class BikeRepository : IBaseRepository , IBike
     {
         //A class inherits from only one class. Thanks to interfaces, I can implement multiple inheritance.
         //Here, I wrote the class's private methods in the interface.
         //I also applied it here. Thus, he did not keep methods that did not belong to him in his own repository.
-
-        public string GetFuelType()
+        public string GetPrice()
         {
-            return "Bring cars that use diesel fuel.";
+            return " Bring those over $300.";
         }
 
-        public override string GetPrice()
+        public string Get_Squad_Length()
         {
-            return "Bring the ones over $10000.";
+            return "Bring the 50 cm staff.";
+           
         }
     }
 }

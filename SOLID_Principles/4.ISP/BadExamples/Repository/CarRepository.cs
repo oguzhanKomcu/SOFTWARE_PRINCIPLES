@@ -1,25 +1,27 @@
-﻿using SOLID_Principles._3.LSP.BadExamples.Abstract;
+﻿
+
+using SOLID_Principles._4.ISP.BadExamples.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID_Principles._3.LSP.BadExamples.Repository
+namespace SOLID_Principles._4.ISP.BadExamples.Repository
 {
-    public class CarRepository : BaseRepository
+    public class CarRepository : IBaseRepository
     {
-        public override string GetFuelType()
+        public string GetFuelType()
         {
             return "Cars with fuel type gasoline.";
         }
 
-        public override string GetPrice()
+        public  string GetPrice()
         {
             return "Cars under $30000.";
         }
 
-        public override string Get_Squad_Length()
+        public  string Get_Squad_Length()
         {
             throw new NotImplementedException("Cars do not have a frame size.");
         }
