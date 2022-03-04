@@ -57,8 +57,15 @@
     <Compile Include="2.OCP\GoodExample\Repository\RectangleRepository.cs" />
     <Compile Include="2.OCP\GoodExample\Repository\TriangleRepository.cs" />
     <Compile Include="3.LSP\BadExamples\Abstract\BaseRepository.cs" />
-    <Compile Include="3.LSP\BadExamples\Model\Bike.cs" />
-    <Compile Include="3.LSP\BadExamples\Model\Car.cs" />
+    <Compile Include="3.LSP\Model\Bike.cs" />
+    <Compile Include="3.LSP\Model\Car.cs" />
+    <Compile Include="3.LSP\BadExamples\Repository\BikeRepository.cs" />
+    <Compile Include="3.LSP\BadExamples\Repository\CarRepository.cs" />
+    <Compile Include="3.LSP\GoodExamples\Abstract\BaseRepository.cs" />
+    <Compile Include="3.LSP\GoodExamples\Interface\IBike.cs" />
+    <Compile Include="3.LSP\GoodExamples\Interface\ICar.cs" />
+    <Compile Include="3.LSP\GoodExamples\Repository\BikeRepository.cs" />
+    <Compile Include="3.LSP\GoodExamples\Repository\CarRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,8 +73,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="3.LSP\BadExamples\Repository\" />
-    <Folder Include="3.LSP\GoodExamples\" />
     <Folder Include="4.ISP\" />
     <Folder Include="5.DIP\" />
   </ItemGroup>

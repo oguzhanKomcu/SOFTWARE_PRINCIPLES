@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID_Principles._3.LSP.BadExamples.Model
+namespace SOLID_Principles._3.LSP.Model
 {
     public class Car
     {
+        //Here I have created my entity which will correspond to my table in my database.
+
         public int Id { get; set; } 
         public string Gear { get; set; }
 
