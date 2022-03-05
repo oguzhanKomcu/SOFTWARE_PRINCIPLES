@@ -55,4 +55,12 @@ Here, with a bad example, I have shown the situations that can occur when the pr
 
 Here I have shown the good result when the principle is followed. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/3.LSP/GoodExample).
 
+## ISP (Interface Segregation Principle)
+
+It is the principle that argues that we should create more customized interfaces instead of collecting all the responsibilities into a single interface. In other words, it wants us to create the capability that the subclass will not use in the interface. Because all methods and properties created in the interface must be in the implement class with it, and the bodies of these methods are filled in that implemented class. When the class does not use this method, it unnecessarily retains it.It would be a more correct approach for the classes to create and implement their own capabilities in different interfaces.
+
+Here I have shown the plight that occurs when this principle is not applied. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/4.ISP/BadExamples).
+
+I've shown my code here, which is better if the principle is implemented. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/4.ISP/GoodExamples).
+
 
