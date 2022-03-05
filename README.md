@@ -15,6 +15,15 @@ KISS rejects the idea that complex solutions are more "intelligent" solutions. M
 
 ## Yangi Principle : You Aren’t Gonna Need It !
 
+Like the KISS principle, YAGNI aims to avoid complexity, especially from adding functionality you think you may need in the future.In other words, he says, do not do the work of the later, much earlier, in case you need it in the future. Because both a waste of time and various errors may be encountered in our software afterwards. It says that we should always implement things when we really need them. Because maybe we won't even need it in the future and we will tire ourselves out by trying to write it.
 
+## DRY Principle : Don’t Repeat Yourself !
+
+The Repetition of Oneself (DRY) principle states that repetition in logic must be eliminated by abstraction; Duplicates in the process should be eliminated through automation. Duplicating is a waste. Adding additional, redundant code to a codebase increases the amount of work required to expand and maintain software in the future.
+
+Successful application of the DRY principle means that when there is a change in the system, we do not think about whether other logical elements will be affected by this change. In addition, since the effects on the associated logical elements will be predictable, the process will be handled properly and the changes can be managed up-to-date.
+
+
+# SOLID PRINCIPLES
 
 ![alt text](https://images.squarespace-cdn.com/content/v1/5ee6ced9ad12c31b3a986093/1594700989854-B74R9USLEHL600043T1P/1_7T_MQ8cFP1TgKBkf8dDWeg.jpeg?format=750w)
