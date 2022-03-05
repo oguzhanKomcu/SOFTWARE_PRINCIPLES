@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SOLID_Principles._5.DIP.GoodExample.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -40,7 +41,7 @@ namespace SOLID_Principles._5.DIP.GoodExample
 
 
 
-
+       
 
 
 
