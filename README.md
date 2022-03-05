@@ -47,5 +47,12 @@ Here I have shown an example made without following my principle. [GitHub Pages]
 
 Here, too, I have shown how we get better results when we follow the principle. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/2.OCP/GoodExample).
 
+## LSP (Liskov Substitution Principle) 
+
+Traits inside the inherited class must also be used in the inheriting class. In other words, if the inheriting abstract class is a base class, it should not contain the metholders, properties, and fields that are not valid in all subclasses. Although there are elements that are not required to be overridden in the abstact class, the subclass still inherits this method.
+
+Here, with a bad example, I have shown the situations that can occur when the principle is not followed. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/3.LSP/BadExample).
+
+Here I have shown the good result when the principle is followed. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/3.LSP/GoodExample).
 
 
