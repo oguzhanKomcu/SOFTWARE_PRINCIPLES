@@ -31,11 +31,21 @@ Successful application of the DRY principle means that when there is a change in
 
 ## SRP (Single Responsibility Principle)
 
-The Single Responsibility Principle states that every function, class, module, or service should have a single, clearly defined responsibility. In other words, a class/function/module should have only one reason to change.Your code becomes much easier to understand, maintain, and modify when you define your functions or classes to be focused and responsible for a single functionality.
+The Single Responsibility Principle states that every function, class, module, or service should have a single, clearly defined responsibility.This principle explains to us that it is wrong to load more than one responsibilities, functions into a class, method. In other words, a class/function/module should have only one reason to change.Your code becomes much easier to understand, maintain, and modify when you define your functions or classes to be focused and responsible for a single functionality.
 
 Consider the confusion and clutter that can happen when our models have elements that don't belong to their function. So an element that doesn't work for him in the model may lead to other errors in the future.
 
 Here she first showed the misuse with a bad example. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/1.SRP/BadExample).
 
 Here, too, I have shown how we get better results when we follow the principle. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/1.SRP/GoodExample).
+
+##  OCP (Open/Closed Principle) 
+
+According to this principle, classes should be open to development and closed to change.OCP requires assets that can be broadly adapted but also remain unchanged. At this point, we need to create duplicate entities with special behaviors with the subject of polymorphism. That is, it should not be changing its behavior and should be able to acquire new features. When we do not comply with this principle, we have to make changes to our methods or functions when new updates are constantly coming.This may not seem very important in small projects, but as the projects grow, the problems may increase because we do not follow the principle.
+
+Here I have shown an example made without following my principle. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/blob/master/SOLID_Principles/2.OCP/BadExample/BadShape.cs).
+
+Here, too, I have shown how we get better results when we follow the principle. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/2.OCP/GoodExample).
+
+
 
