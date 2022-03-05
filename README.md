@@ -61,6 +61,19 @@ It is the principle that argues that we should create more customized interfaces
 
 Here I have shown the plight that occurs when this principle is not applied. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/4.ISP/BadExamples).
 
-I've shown my code here, which is better if the principle is implemented. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/4.ISP/GoodExamples).
+Here I have shown my example, which allows us to achieve better results when the principle is followed. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/4.ISP/GoodExamples).
+
+## DIP (Dependency Inversion Principle)
+
+Top-level classes should not depend on lower-level classes, the relationship should be provided using abstraction or interface.Abstraction should not depend on details, on the contrary, details should depend on abstractions.This principle tells us that we have to make these principles.In general programming, high-level processing methods are dependent on low-level processing methods. So they call those methods.Because low-level methods will require changes to lower-level methods, higher-level methods also have to undergo changes.
+
+When this principle is not followed, we constantly create new objects between our layers and classes. This means a lot of objects in big projects. This also affects performance.Likewise, a change to a method that performs high-level operations requires that all the methods it depends on change. Reusability is almost impossible in a project with such tightly coupled methods. In other words, when we want to reuse a small change made in another project, we have to reference many classes in the project.
+
+Here I have shown an example made without following my principle. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/5.DIP/BadExample).
+
+Here I have shown my example, which allows us to achieve better results when the principle is followed. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/5.DIP/GoodExample).
+
+
+
 
 
