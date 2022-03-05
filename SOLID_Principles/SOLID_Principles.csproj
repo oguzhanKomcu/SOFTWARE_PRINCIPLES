@@ -78,14 +78,19 @@
     <Compile Include="4.ISP\GoodExamples\Interface\ICar.cs" />
     <Compile Include="4.ISP\GoodExamples\Repository\BikeRepository.cs" />
     <Compile Include="4.ISP\GoodExamples\Repository\CarRepository.cs" />
+    <Compile Include="5.DIP\BadExample\BadPlayer.cs" />
+    <Compile Include="5.DIP\BadExample\Music.cs" />
+    <Compile Include="5.DIP\BadExample\Video.cs" />
+    <Compile Include="5.DIP\GoodExample\Concrete\Music.cs" />
+    <Compile Include="5.DIP\GoodExample\Concrete\Video.cs" />
+    <Compile Include="5.DIP\GoodExample\Interface\IFormat.cs" />
+    <Compile Include="5.DIP\GoodExample\Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="5.DIP\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
