@@ -26,7 +26,7 @@ Successful application of the DRY principle means that when there is a change in
 
 # SOLID PRINCIPLES
 
-![alt text](https://images.squarespace-cdn.com/content/v1/5ee6ced9ad12c31b3a986093/1594700989854-B74R9USLEHL600043T1P/1_7T_MQ8cFP1TgKBkf8dDWeg.jpeg?format=750w)
+![alt text](https://dijitalseruven.com/wp-content/uploads/2021/02/SOLID-1024x341.jpg)
 
 
 ## SRP (Single Responsibility Principle)
