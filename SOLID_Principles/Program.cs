@@ -23,7 +23,7 @@ namespace SOLID_Principles
             //Now here I am creating an object from my class and accessing its elements.
             //I am applying my method that I will use inside the constructor method.
             // So now I don't call my classes one by one, I call the class I need. I reach the result directly with the methods I apply.
-            //I have reversed the addiction.
+            //I have reversed the addiction....
             var player = new Player(new Music());
 
             Console.WriteLine(player.GetPlayer());
