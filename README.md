@@ -31,6 +31,9 @@ Successful application of the DRY principle means that when there is a change in
 
 ## SRP (Single Responsibility Principle)
 
+![alt text](https://i0.wp.com/www.mustafakahraman.net/wp-content/uploads/2018/09/single-responsibility-principle.png?resize=700%2C373)
+
+
 The Single Responsibility Principle states that every function, class, module, or service should have a single, clearly defined responsibility.This principle explains to us that it is wrong to load more than one responsibilities, functions into a class, method. In other words, a class/function/module should have only one reason to change.Your code becomes much easier to understand, maintain, and modify when you define your functions or classes to be focused and responsible for a single functionality.
 
 Consider the confusion and clutter that can happen when our models have elements that don't belong to their function. So an element that doesn't work for him in the model may lead to other errors in the future.
