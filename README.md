@@ -44,6 +44,9 @@ Here, too, I have shown how we get better results when we follow the principle. 
 
 ##  OCP (Open/Closed Principle) 
 
+
+![alt text](https://miro.medium.com/max/1400/1*XEtQ5hCa0uYTGQ38usgquQ.jpeg)
+
 According to this principle, classes should be open to development and closed to change.OCP requires assets that can be broadly adapted but also remain unchanged. At this point, we need to create duplicate entities with special behaviors with the subject of polymorphism. That is, it should not be changing its behavior and should be able to acquire new features. When we do not comply with this principle, we have to make changes to our methods or functions when new updates are constantly coming.This may not seem very important in small projects, but as the projects grow, the problems may increase because we do not follow the principle.
 
 Here I have shown an example made without following my principle. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/blob/master/SOLID_Principles/2.OCP/BadExample/BadShape.cs).
@@ -51,6 +54,8 @@ Here I have shown an example made without following my principle. [GitHub Pages]
 Here, too, I have shown how we get better results when we follow the principle. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/2.OCP/GoodExample).
 
 ## LSP (Liskov Substitution Principle) 
+
+
 
 Traits inside the inherited class must also be used in the inheriting class. In other words, if the inheriting abstract class is a base class, it should not contain the metholders, properties, and fields that are not valid in all subclasses. Although there are elements that are not required to be overridden in the abstact class, the subclass still inherits this method.
 
@@ -60,6 +65,8 @@ Here I have shown the good result when the principle is followed. [GitHub Pages]
 
 ## ISP (Interface Segregation Principle)
 
+![alt text](https://jfiaffe.files.wordpress.com/2015/02/multi-cables.jpg)
+
 It is the principle that argues that we should create more customized interfaces instead of collecting all the responsibilities into a single interface. In other words, it wants us to create the capability that the subclass will not use in the interface. Because all methods and properties created in the interface must be in the implement class with it, and the bodies of these methods are filled in that implemented class. When the class does not use this method, it unnecessarily retains it.It would be a more correct approach for the classes to create and implement their own capabilities in different interfaces.
 
 Here I have shown the plight that occurs when this principle is not applied. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/4.ISP/BadExamples).
@@ -67,6 +74,9 @@ Here I have shown the plight that occurs when this principle is not applied. [Gi
 Here I have shown my example, which allows us to achieve better results when the principle is followed. [GitHub Pages](https://github.com/oguzhanKomcu/SOFTWARE_PRINCIPLES/tree/master/SOLID_Principles/4.ISP/GoodExamples).
 
 ## DIP (Dependency Inversion Principle)
+
+![alt text](https://user-images.githubusercontent.com/96787308/162573983-0668c49d-82fe-41f8-845b-508b54dbf2e3.png)
+
 
 Top-level classes should not depend on lower-level classes, the relationship should be provided using abstraction or interface.Abstraction should not depend on details, on the contrary, details should depend on abstractions.This principle tells us that we have to make these principles.In general programming, high-level processing methods are dependent on low-level processing methods. So they call those methods.Because low-level methods will require changes to lower-level methods, higher-level methods also have to undergo changes.
 
